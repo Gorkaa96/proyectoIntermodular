@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LevelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="5"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="350dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton16"
+            app:layout_constraintStart_toEndOf="@+id/imageButton14"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="3"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton19"
+            app:layout_constraintStart_toEndOf="@+id/imageButton17"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="350dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="350dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="8"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+            app:layout_constraintStart_toEndOf="@+id/imageButton10"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="350dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="2"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+            app:layout_constraintStart_toEndOf="@+id/imageButton7"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="350dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="2"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+            app:layout_constraintStart_toEndOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="350dp"
+            android:background="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help"
+            android:fitsSystemWindows="false"
+            android:scaleType="centerCrop"
+            android:tag="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/depositphotos_53310845_stock_illustration_question_mark_sign_icon_help" />
+
+        <Chronometer
+            android:id="@+id/chrono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="270dp"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.564"
+            app:layout_constraintStart_toEndOf="@+id/nombreusuario"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/lblNombreUsuario"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.207"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nombreusuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lblnombre"
+            app:layout_constraintStart_toStartOf="@+id/lblnombre"
+            app:layout_constraintTop_toBottomOf="@+id/lblnombre" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

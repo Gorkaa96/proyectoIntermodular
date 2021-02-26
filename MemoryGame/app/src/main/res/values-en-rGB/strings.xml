@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="mainTitle">MEMORY GAME</string>
+    <string name="lvlTitle">CHOOSE A LEVEL</string>
+    <string name="lvlFacil">EASY (3X2)</string>
+    <string name="lvlMedio">MEDIUM (3X4)</string>
+    <string name="lvlDificil">HARD (3X6)</string>
+    <string name="btnJugar">PLAY</string>
+    <string name="btnCancelar">CANCEL</string>
+    <string name="btnPuntuaciones">SCORES</string>
+    <string name="btnCreditos">CREDITS</string>
+    <string name="lblNombreUsuario">User name</string>
+    <string name="lblIntroduceNombre">Enter a username</string>
+    <string name="lblErrorIntroduceNombre">Enter a name to play</string>
+    <string name="lblCargaJuego">Find the pairs</string>
+    <string name="lblCreditosCreatedBy">App Created By</string>
+    <string name="lblCreditosName">Gorka Hernandez Uzkudun</string>
+    <string name="txtGanado">You have won!</string>
+    <string name="txtTiemp">It has cost you:</string>
+    <string name="txtPuntuacion">Your score is:</string>
+    <string name="txtVuolverMenu">BACK TO MENU</string>
+</resources>
